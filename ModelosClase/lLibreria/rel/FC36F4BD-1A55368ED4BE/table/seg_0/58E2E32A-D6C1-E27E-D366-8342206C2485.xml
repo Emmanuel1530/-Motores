@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58E2E32A-D6C1-E27E-D366-8342206C2485" name="Autor">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>DBB3F13E-2913-642B-5B75-141A67BD76E9</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombreA" id="2FE909BF-5FAD-3E12-58A5-D7615D83C86C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>C951024D-B484-6D6D-BA28-400EDC35DEC6</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="92B5971C-92D8-B4F9-A54F-CBC510F5CC00">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>1C078B11-E590-9424-DBAE-FBDEFCA162C9</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechanacimiento" id="0C9F5B91-B7F4-10F8-E4EF-ADA0B9F7881D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>632C6295-2B50-4BBA-8F74-CFD3BA90EACB</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D78FB7C-025F-99D3-DA5E-6256A6A0F8F0" name="Autor_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>A85FFBF0-933B-C764-EDB5-F110E13707C5</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FE909BF-5FAD-3E12-58A5-D7615D83C86C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

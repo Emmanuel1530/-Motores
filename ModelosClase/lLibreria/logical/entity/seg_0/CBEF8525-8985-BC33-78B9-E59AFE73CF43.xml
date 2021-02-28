@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBEF8525-8985-BC33-78B9-E59AFE73CF43" name="copia">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:57:16 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idcopia" id="3A59F77A-FB8D-B87A-11B1-DB1E701E9279">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:57:28 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEdicion" id="D706B4F7-E549-89B3-D127-02CB3A1C79A9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:11:59 UTC</createdTime>
+<generatorID>2FE6AEC5-6E5A-EBBB-7CF9-50F72A216CF6</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<referedAttribute>CBF7F4E4-BD89-03C1-5E1B-8BEA256DA7F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5808602-E4CA-FB99-272B-A5BBF9DD9F06" name="copia PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:59:10 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A59F77A-FB8D-B87A-11B1-DB1E701E9279</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

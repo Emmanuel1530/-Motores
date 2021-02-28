@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24225248-43E6-70E6-8CC0-E8E5EA72ACCF" name="copia">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>CBEF8525-8985-BC33-78B9-E59AFE73CF43</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idcopia" id="7BCB2D3C-B478-1468-6586-218A5395C56A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>3A59F77A-FB8D-B87A-11B1-DB1E701E9279</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edicion_idEdicion" id="9D1B6434-E26A-804D-5746-523DB23081B0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>D706B4F7-E549-89B3-D127-02CB3A1C79A9</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E32AB1-5506-BA57-1F62-B0B285D9A9D2" referredColumn="F52AC60B-9EE0-11B9-F150-2896731D708B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B42B31E0-C709-5F9B-3E4A-2A6DD1E7BEE7" name="copia_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>D5808602-E4CA-FB99-272B-A5BBF9DD9F06</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BCB2D3C-B478-1468-6586-218A5395C56A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9969AA77-59EA-CCA1-02A7-44B45D8220B2" name="copia_Edicion_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>2FE6AEC5-6E5A-EBBB-7CF9-50F72A216CF6</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1B6434-E26A-804D-5746-523DB23081B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

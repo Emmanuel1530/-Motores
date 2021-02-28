@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="227A418A-D3C1-121D-FE32-5C1171F3A0CE" name="Libro">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:32:57 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codLibro" id="97918D1B-B6A9-8CC4-3AB3-55FC466FC2F6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:33:15 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreL" id="E8CBC03B-36D8-86D3-6D1D-FAF30B891601">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:35:09 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPaginas" id="31192D22-CF53-C472-9243-606FC0F6E828">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:35:44 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="07012CCF-CF31-E52A-E9F2-7379ECED8E78">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:36:00 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idioma" id="E5C5D6BE-34CF-CE71-DE27-E8D51369A91F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:37:45 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F30F2A96-2040-F238-D3DF-C3E8B5DBC652" name="Entity_1 PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:36:40 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97918D1B-B6A9-8CC4-3AB3-55FC466FC2F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prestamo" directorySegmentName="seg_0" id="B444116F-F0D3-34EC-59DE-35F0FF3752F3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:16:30 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B3494DB8-0C19-7082-6F9E-CEE6E316C706</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBEF8525-8985-BC33-78B9-E59AFE73CF43</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fechaPrestamo" id="AA02C766-80A7-2A97-67B9-5FB726B48564">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:16:55 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="FechaDevolucion" id="F8702159-6DA9-F2D9-43BA-DF2FE6049846">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:19:11 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

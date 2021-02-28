@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="libroedicion" directorySegmentName="seg_0" id="4F2CB83E-4480-6849-90FD-3CC5E3DC1696">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:09:17 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<sourcePk>F30F2A96-2040-F238-D3DF-C3E8B5DBC652</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>227A418A-D3C1-121D-FE32-5C1171F3A0CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB28C437-B522-1303-FB00-E3FB9DA4B87F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

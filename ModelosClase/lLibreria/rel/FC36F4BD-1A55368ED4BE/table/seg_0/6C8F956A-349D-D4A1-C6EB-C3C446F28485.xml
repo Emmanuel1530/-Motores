@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C8F956A-349D-D4A1-C6EB-C3C446F28485" name="Edicion">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>FB28C437-B522-1303-FB00-E3FB9DA4B87F</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEdicion" id="F52AC60B-9EE0-11B9-F150-2896731D708B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>CBF7F4E4-BD89-03C1-5E1B-8BEA256DA7F0</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="annio" id="F6738AC0-2C2F-1316-88E4-298819C4025F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>5E7355D5-C398-CF07-20F0-90824E145DB5</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISBN" id="BF2E918A-44B6-4CE8-728F-5E77D63485F8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>0DA74CAA-1E64-5DCC-218F-79B647116CB6</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoPasta" id="BDC4826E-2568-70C9-5BCE-BB91AC05F8FB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>D0A580BC-9C9F-D6E6-EE16-7950EB3383A2</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libro_codLibro" id="B4C48E9A-204A-E1DD-5C95-8B809C7F26B5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>5C712098-C4E5-5665-C691-E60E89EC60E0</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CBD5B35-8671-1FD8-0984-87EF793A744D" referredColumn="81FA4264-9B65-4EE6-BCCC-D42F1963331F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="704A7CD3-360E-16CE-B1C7-095A95877793" name="Edicion_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>76229F59-801B-E677-8418-3885B1503059</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F52AC60B-9EE0-11B9-F150-2896731D708B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE9E92AD-8A09-8B2C-16FE-8F0B12D39847" name="Edicion_Libro_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>4F2CB83E-4480-6849-90FD-3CC5E3DC1696</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4C48E9A-204A-E1DD-5C95-8B809C7F26B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

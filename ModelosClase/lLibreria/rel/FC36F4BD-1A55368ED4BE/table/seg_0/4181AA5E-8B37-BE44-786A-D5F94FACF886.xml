@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4181AA5E-8B37-BE44-786A-D5F94FACF886" name="LibroAutor">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Libro_codLibro" id="9E6A54C6-00AD-3A2C-F0ED-D98FCF4F4591">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6BDA15F-F253-85A3-CCA0-535F917E0F44" referredColumn="81FA4264-9B65-4EE6-BCCC-D42F1963331F"/>
+</associations>
+</Column>
+<Column name="Autor_nombreA" id="F67BE1AE-A90E-CCEB-1F5D-90DADA8A7587">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="826E7CF2-6319-F279-CE3A-B6B37EFE2F81" referredColumn="2FE909BF-5FAD-3E12-58A5-D7615D83C86C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25D4705C-BD44-99CB-21EE-E68DBA25915A" name="LibroAutor_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E6A54C6-00AD-3A2C-F0ED-D98FCF4F4591"/>
+<colUsage columnID="F67BE1AE-A90E-CCEB-1F5D-90DADA8A7587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1254F84-8535-6111-DC18-07BBD119F1BF" name="LibroAutor_Libro_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>C9862CF9-ABAB-CD6D-518B-7807B642CB3E</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E6A54C6-00AD-3A2C-F0ED-D98FCF4F4591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="924EB7CC-4E1C-E5A5-8538-957844682AB9" name="LibroAutor_Autor_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<generatorID>C9862CF9-ABAB-CD6D-518B-7807B642CB3E</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F67BE1AE-A90E-CCEB-1F5D-90DADA8A7587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

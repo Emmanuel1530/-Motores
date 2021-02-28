@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D80332BA-9598-5CEC-D9CC-10F8AEE43124" name="prestamo">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:28 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuarios_documento" id="B7498B89-7A32-7178-DA33-6AA2069E8279">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B0C430F-3F85-7DF0-68B2-544A192C6D93" referredColumn="03B64225-C873-B7ED-4262-B85A2F8E3FAD"/>
+</associations>
+</Column>
+<Column name="copia_idcopia" id="C52DB7A1-58EC-A0B6-0154-13AECF49F4A0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3CD534F-2F01-CF3A-94DD-350799875126" referredColumn="7BCB2D3C-B478-1468-6586-218A5395C56A"/>
+</associations>
+</Column>
+<Column name="fechaPrestamo" id="13C5477B-EA05-F923-E8B0-2C6C18A169C1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<generatorID>AA02C766-80A7-2A97-67B9-5FB726B48564</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="FechaDevolucion" id="BA557312-5C14-D196-6F69-ACEC7E175D5D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<generatorID>F8702159-6DA9-F2D9-43BA-DF2FE6049846</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66850F97-3109-5085-B373-4849E80FF79A" name="prestamo_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7498B89-7A32-7178-DA33-6AA2069E8279"/>
+<colUsage columnID="C52DB7A1-58EC-A0B6-0154-13AECF49F4A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0786B0CD-5344-94CC-36CA-77384267E198" name="prestamo_usuarios_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<generatorID>B444116F-F0D3-34EC-59DE-35F0FF3752F3</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7498B89-7A32-7178-DA33-6AA2069E8279"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7E492E0-8658-D555-CEEB-DDB03B4B2ADB" name="prestamo_copia_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:23:29 UTC</createdTime>
+<generatorID>B444116F-F0D3-34EC-59DE-35F0FF3752F3</generatorID>
+<ownerDesignName>lLibreria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C52DB7A1-58EC-A0B6-0154-13AECF49F4A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

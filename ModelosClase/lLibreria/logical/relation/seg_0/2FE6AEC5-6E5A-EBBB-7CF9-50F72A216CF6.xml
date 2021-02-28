@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EdicionCopia" directorySegmentName="seg_0" id="2FE6AEC5-6E5A-EBBB-7CF9-50F72A216CF6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:11:59 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<sourcePk>76229F59-801B-E677-8418-3885B1503059</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB28C437-B522-1303-FB00-E3FB9DA4B87F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBEF8525-8985-BC33-78B9-E59AFE73CF43</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

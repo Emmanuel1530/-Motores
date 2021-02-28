@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LibroAutor" directorySegmentName="seg_0" id="C9862CF9-ABAB-CD6D-518B-7807B642CB3E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 15:04:58 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<engineerTo>
+<item key="FC36F4BD-7DF5-5447-F15C-1A55368ED4BE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>227A418A-D3C1-121D-FE32-5C1171F3A0CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DBB3F13E-2913-642B-5B75-141A67BD76E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

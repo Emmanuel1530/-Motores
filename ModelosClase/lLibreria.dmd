@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="lLibreria" id="91C62A7E-FDE9-FB47-901A-973406001D80" version="3.5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-26 14:32:48 UTC</createdTime>
+<ownerDesignName>lLibreria</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>91C62A7E-FDE9-FB47-901A-973406001D80</designId>
+</OSDM_Design>
