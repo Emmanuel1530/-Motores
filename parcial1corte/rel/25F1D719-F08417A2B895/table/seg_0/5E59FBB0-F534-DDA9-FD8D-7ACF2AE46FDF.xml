@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E59FBB0-F534-DDA9-FD8D-7ACF2AE46FDF" name="Clientes">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>355623D8-7849-945A-AFA3-CA2163202467</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idIdentificacion" id="5AB16753-B122-2272-C9B4-9C1138AB82D8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>2CB9C7B9-100F-60D3-995E-245EFD7CD659</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="C3AC6029-4798-E6E6-3D31-D5F6696BF579">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>168AB38F-5F36-02F7-D6BB-36ADD8C55F67</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="C9216400-7F7F-B3AF-F339-E9818A282EAB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>3CAD5093-9779-E86C-3AF1-09F1F637B956</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="5CA02A30-E636-F1A1-D109-AE18BD2153A8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>CA289FC0-AC03-BCF6-6B91-46CE7C40F34A</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79A2C8D5-E67C-02A7-476F-693AD616D1FC" name="Clientes_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>FB0C61AB-8AAF-6733-3857-0EF19A5A1957</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AB16753-B122-2272-C9B4-9C1138AB82D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

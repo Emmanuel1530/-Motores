@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75DC091B-19E6-D35E-7950-39ED34B42D73" name="Reserva">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>F57C3424-9FC7-E136-9851-B01A22CA9A67</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReserva" id="D9C98AD5-4568-E12E-FA06-138E667D5ABD">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>59A0DBCF-D405-0B45-1705-087D8A488F9C</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicion" id="37351393-AC23-65E8-F9EF-AEB3B80C44A5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>8B09F695-F7ED-FBF3-D3BB-2366F1C26B53</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="2A8D0608-DA37-0C88-AC4C-8B7E314D96F4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>EE6A78DF-6534-76E9-05A2-D6C378CBB799</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioTotal" id="8999AB7A-C07C-BD6C-791B-3406730FF42C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>945E0E73-741C-EE1B-BD1E-77902C27ADE4</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entrega" id="F341910F-5DEF-990A-AAE7-8F1958EBC439">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>A23D8FB7-A716-F84F-6ACC-8078763280C6</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalDeDias" id="5E95E10B-A3D1-A9A1-4827-663A0EFBB393">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>5C113D79-5B93-52D0-EC33-B8C5D6060D1B</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_idIdentificacion" id="A7D2AE4E-C37B-239D-A9E2-26280B9259FE">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>AE105981-74D1-9EE0-CDC8-575D0B5032E7</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E1CD43-BBDF-92CF-7AF5-3C760E3E072A" referredColumn="5AB16753-B122-2272-C9B4-9C1138AB82D8"/>
+</associations>
+</Column>
+<Column name="Vehiculo_Placa" id="30159096-E608-2D83-F0DC-E508F73ECA55">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:33:05 UTC</createdTime>
+<generatorID>B0F3DC20-E5F0-AADA-3823-40888CD66C36</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="744BF046-1D71-7D41-8F75-C0C0264B8AFD" referredColumn="7C7A291C-7C0F-1888-2673-2387CD43CA1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA995D69-3A78-BB7E-9D50-8593617BF276" name="Reserva_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>C3602EEC-E9F8-0D75-816A-961982BA5308</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9C98AD5-4568-E12E-FA06-138E667D5ABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26A70DBC-912C-9CD8-6C55-69E191775833" name="Reserva_Clientes_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>F95C5DEF-C057-5009-D099-078526102C2D</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7D2AE4E-C37B-239D-A9E2-26280B9259FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3A1BE59-FCFE-D827-5024-EF63007D22FF" name="Reserva_Vehiculo_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:33:05 UTC</createdTime>
+<generatorID>08394941-2C63-6166-95B1-A41D8C4A1D6C</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30159096-E608-2D83-F0DC-E508F73ECA55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

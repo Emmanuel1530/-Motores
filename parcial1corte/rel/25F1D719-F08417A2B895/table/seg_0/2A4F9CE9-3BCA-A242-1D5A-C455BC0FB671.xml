@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A4F9CE9-3BCA-A242-1D5A-C455BC0FB671" name="Vehiculo">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>CAD6BE58-A054-925A-6646-8C1AB70D4F05</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Placa" id="7C7A291C-7C0F-1888-2673-2387CD43CA1D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>F2C7BD1F-E0FD-4EF9-360F-FBFEB41860E6</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="77889513-3C3B-05E4-CF84-601F606AFBCB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>099A1BCA-3965-B3F1-12D6-888A360B9F6A</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="759C76C8-2621-CD1D-00EF-5F550574B59D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>4B5419F6-0F90-753A-9A16-0A3DEB274BDD</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="1AF91949-9B03-9655-CC28-417E35AE10FB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>98600D81-C229-3B04-CDC8-888A3A6EF949</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioAlquiler" id="679EC76F-9130-7BE7-67CB-0ABBD5A85BE4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>689F50D9-992F-A980-0C88-EF2A7E9F51BA</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LitrosGasolina" id="DDC99DC6-3F06-6FA1-EAA6-7F4281A1F4AB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>B08A895E-B1B5-73B1-22CC-1C6207CF7F41</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77065D63-8CBA-7940-538B-0AE71592AF1C" name="Vehiculo_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:04:17 UTC</createdTime>
+<generatorID>BB2F4735-D0DE-A6D1-4D01-47B4BD0E8FEF</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C7A291C-7C0F-1888-2673-2387CD43CA1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

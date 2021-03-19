@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="355623D8-7849-945A-AFA3-CA2163202467" name="Clientes">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:43:02 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idIdentificacion" id="2CB9C7B9-100F-60D3-995E-245EFD7CD659">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:43:12 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="168AB38F-5F36-02F7-D6BB-36ADD8C55F67">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:43:39 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="3CAD5093-9779-E86C-3AF1-09F1F637B956">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:44:37 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="CA289FC0-AC03-BCF6-6B91-46CE7C40F34A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:45:07 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB0C61AB-8AAF-6733-3857-0EF19A5A1957" name="Clientes PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:43:36 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CB9C7B9-100F-60D3-995E-245EFD7CD659</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

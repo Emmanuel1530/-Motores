@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F57C3424-9FC7-E136-9851-B01A22CA9A67" name="Reserva">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:46:20 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReserva" id="59A0DBCF-D405-0B45-1705-087D8A488F9C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:46:29 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaInicion" id="8B09F695-F7ED-FBF3-D3BB-2366F1C26B53">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:46:48 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaFin" id="EE6A78DF-6534-76E9-05A2-D6C378CBB799">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:47:17 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrecioTotal" id="945E0E73-741C-EE1B-BD1E-77902C27ADE4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:47:43 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Entrega" id="A23D8FB7-A716-F84F-6ACC-8078763280C6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:48:25 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalDeDias" id="5C113D79-5B93-52D0-EC33-B8C5D6060D1B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:49:56 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idIdentificacion" id="AE105981-74D1-9EE0-CDC8-575D0B5032E7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:57:58 UTC</createdTime>
+<generatorID>F95C5DEF-C057-5009-D099-078526102C2D</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<referedAttribute>2CB9C7B9-100F-60D3-995E-245EFD7CD659</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Placa1" id="B0F3DC20-E5F0-AADA-3823-40888CD66C36">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:32:53 UTC</createdTime>
+<generatorID>08394941-2C63-6166-95B1-A41D8C4A1D6C</generatorID>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F2C7BD1F-E0FD-4EF9-360F-FBFEB41860E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3602EEC-E9F8-0D75-816A-961982BA5308" name="Reserva PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 14:46:47 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59A0DBCF-D405-0B45-1705-087D8A488F9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

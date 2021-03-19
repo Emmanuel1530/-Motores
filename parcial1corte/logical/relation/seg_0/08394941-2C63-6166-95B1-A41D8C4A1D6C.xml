@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReservaVehiculo" directorySegmentName="seg_0" id="08394941-2C63-6166-95B1-A41D8C4A1D6C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-03-19 15:03:14 UTC</createdTime>
+<ownerDesignName>parcial1corte</ownerDesignName>
+<engineerTo>
+<item key="25F1D719-9232-EF4D-13FC-F08417A2B895" value="true"/>
+</engineerTo>
+<sourcePk>C3602EEC-E9F8-0D75-816A-961982BA5308</sourcePk>
+<targetPk>BB2F4735-D0DE-A6D1-4D01-47B4BD0E8FEF</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F57C3424-9FC7-E136-9851-B01A22CA9A67</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CAD6BE58-A054-925A-6646-8C1AB70D4F05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
