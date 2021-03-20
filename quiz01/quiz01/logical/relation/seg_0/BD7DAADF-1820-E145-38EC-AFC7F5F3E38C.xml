@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleado_tipo" directorySegmentName="seg_0" id="BD7DAADF-1820-E145-38EC-AFC7F5F3E38C">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:22:33 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="B17A5992-712B-9EBF-5ECC-A9CDB4A72408" value="true"/>
+</engineerTo>
+<sourcePk>58A10D13-C3AF-8854-F33F-25C2BE9C55E5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>732F2080-CDDC-DE9F-104C-3A9FC74CCACC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1CA1DBE1-8BCA-B30E-BE1F-64632D04934E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

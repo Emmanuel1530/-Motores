@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="genero_instrumentos" directorySegmentName="seg_0" id="01872EBA-4D86-2D5B-9D26-EB3668B93C26">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:42:01 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DAE1A832-2890-7748-FAAE-4832C3E74C63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF6A233F-F27C-CCAE-F768-839CC323FD69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

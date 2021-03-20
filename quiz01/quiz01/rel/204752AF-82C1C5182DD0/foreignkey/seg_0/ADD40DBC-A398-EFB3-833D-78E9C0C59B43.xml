@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ADD40DBC-A398-EFB3-833D-78E9C0C59B43" containerWithKeyObject="7172987B-872A-3A0A-2171-AD7CCA76F156" localFKIndex="69FFB8EA-E0B8-4030-9A9D-51565EA8405E" name="factura_empleado_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>C7433172-B35E-BFBC-2258-576279AC065C</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<referredTableLongName>empleado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>248CEA81-BDDC-BA2B-878B-7E9038C2B544</referredTableID>
+<keyObject>40D1C65D-0F66-FD51-9F4F-9B51BB6C1C27</keyObject>
+<referredKeyID>40D1C65D-0F66-FD51-9F4F-9B51BB6C1C27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>documento_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

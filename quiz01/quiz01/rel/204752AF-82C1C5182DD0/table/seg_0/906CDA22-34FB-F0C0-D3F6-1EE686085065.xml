@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="906CDA22-34FB-F0C0-D3F6-1EE686085065" name="factura_productos">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="factura_id_factura" id="A111DE60-3C92-9F9E-4A52-F1A1385F1A1A">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A9AF33F-CD1F-4F2C-E460-85CAA881F056" referredColumn="C193ECAD-4932-FF6D-B19D-AE669FDDB8F6"/>
+</associations>
+</Column>
+<Column name="producto_id_producto" id="67115DF4-48FE-B627-FBF4-4317D0A199C9">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18385ED3-2717-A110-5DC7-9F8A817AEC92" referredColumn="8E401E32-023F-5625-5933-10AAE1688B66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="965D718F-00E1-742B-237F-235E5D780D3C" name="factura_productos_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A111DE60-3C92-9F9E-4A52-F1A1385F1A1A"/>
+<colUsage columnID="67115DF4-48FE-B627-FBF4-4317D0A199C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C5BBE3F-E501-14C9-5FC6-6EB2014308A8" name="factura_productos_factura_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>DD1839EA-2302-A30C-0D01-2334F1A21A8D</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A111DE60-3C92-9F9E-4A52-F1A1385F1A1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D9466B-8BF7-E7F6-3B62-D40DB29AFFB7" name="factura_productos_producto_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>DD1839EA-2302-A30C-0D01-2334F1A21A8D</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67115DF4-48FE-B627-FBF4-4317D0A199C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

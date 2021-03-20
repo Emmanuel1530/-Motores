@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CA1DBE1-8BCA-B30E-BE1F-64632D04934E" name="empleado">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:01:33 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="documentoEmpleado" id="BB2B20C9-A515-74B5-31C3-FC4C95F99954">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:01:42 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7E606A63-333B-2052-A526-1C458662F663">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:02:13 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correoElectronico" id="97C13A9C-F7B8-D08A-BB0F-6DADEA34A689">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:03:50 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono " id="F9E4F6DB-D89A-0BAE-BD61-1DAB1B9A6C17">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:04:24 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="4409AE71-0991-598C-FBFF-4D62F02EBED2">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:05:47 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="turno_id" id="4F3C3EB7-9FA8-7E83-261B-DC0DF7EEA45C">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:13:03 UTC</createdTime>
+<generatorID>2B01A1A3-19CB-4E85-0900-81FD6C0677B5</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<referedAttribute>DCECFC2E-5395-3CB6-AF0D-FD6DB659EFB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre1" id="5DCC2122-462C-F61F-29FE-F31F0ACF026F">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:22:33 UTC</createdTime>
+<generatorID>BD7DAADF-1820-E145-38EC-AFC7F5F3E38C</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<referedAttribute>A52BE8A4-7E38-486B-99FA-D1E7D65F8D37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65307A91-153B-41EE-BDE7-DB185BFA5436" name="empleado PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:02:11 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB2B20C9-A515-74B5-31C3-FC4C95F99954</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

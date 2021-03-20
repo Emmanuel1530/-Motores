@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47889EBF-BB2E-5325-EF98-DE1151F71451" name="Musico ">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:29:34 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_musico" id="9D3DBB71-7056-EC02-771A-E07339DAF326">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:29:45 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DDB47059-4420-6672-C5EE-415580A54BDD">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:30:14 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="9DD4FBE1-CF9B-5A48-4E9F-0FD39D2191D0">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:30:50 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_muerte" id="BDD204D3-1E1C-B27B-1484-812A6E6D55AE">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:31:25 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historia" id="9B16E728-AFFB-9F72-C195-8926242C7022">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:31:42 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_genero" id="3BAC4209-4E77-4D90-D443-5B86885BD928">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:33:00 UTC</createdTime>
+<generatorID>C3D8C15B-9E50-9D98-0ED9-F7505A70968C</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<referedAttribute>823B8C96-F7B1-F49B-A282-01B8EE14A5D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23D6ED78-C6D2-E196-778D-55997F56FEF2" name="Musico PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:30:11 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D3DBB71-7056-EC02-771A-E07339DAF326</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

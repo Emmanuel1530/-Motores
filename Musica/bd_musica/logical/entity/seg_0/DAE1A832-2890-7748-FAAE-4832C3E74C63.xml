@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAE1A832-2890-7748-FAAE-4832C3E74C63" name="Genero ">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:22:24 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_genero" id="823B8C96-F7B1-F49B-A282-01B8EE14A5D0">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:23:53 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_genero" id="CB2515C6-C7E7-78FA-D9C4-5C01227FD1E5">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:24:23 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="caracterisitcas" id="78238789-604E-84C2-9964-10A444F68612">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:24:47 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350 CHAR</dataTypeSize>
+<ownDataTypeParameters>350 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origenes" id="7A9564E4-EF39-BEB3-CEB1-E917EC2C8B90">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:25:08 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_epoca" id="0F1FDF13-EE14-C665-457C-451FFF675689">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:26:41 UTC</createdTime>
+<generatorID>9D94B73F-0C60-69A0-3C7F-C86404F738E5</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<referedAttribute>04DD3783-36AA-5EC3-75DE-E1E1D5E41341</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="602C2338-56F3-279C-26AF-4AE4EA5B1300" name="Genero PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:24:22 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>823B8C96-F7B1-F49B-A282-01B8EE14A5D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

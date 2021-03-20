@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B63D165-CE79-3BA3-5EC8-BBB531BCE0B8" name="tipoEmpleado">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>732F2080-CDDC-DE9F-104C-3A9FC74CCACC</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="F12AE2E4-1E42-D7E6-9648-8F757CA3770F">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>A52BE8A4-7E38-486B-99FA-D1E7D65F8D37</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="3E68DDB0-AA7E-3A67-8E6B-A336C4D02260">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>0F574245-5053-1087-59E3-FC76E2C2E069</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="2A9B28E5-1920-8C78-95C4-23D4333C5A77">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>433FBE8F-8E55-E9D2-B9CB-B01B9B298F76</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5A4D2B5-AB67-3FA7-164B-1F1BFE374C28" name="tipoEmpleado_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>58A10D13-C3AF-8854-F33F-25C2BE9C55E5</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F12AE2E4-1E42-D7E6-9648-8F757CA3770F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

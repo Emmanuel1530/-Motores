@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5FBA954-76EF-5093-2B66-12CFDDF679DC" name="Genero">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>DAE1A832-2890-7748-FAAE-4832C3E74C63</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_genero" id="0E7A59F5-DB26-27E0-9EBA-B9E2514DB244">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>823B8C96-F7B1-F49B-A282-01B8EE14A5D0</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_genero" id="F856C82A-A12F-3AE7-9CE8-E9D0FDBB0BF5">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>CB2515C6-C7E7-78FA-D9C4-5C01227FD1E5</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="caracterisitcas" id="8779297C-1CE4-1F4B-4061-C59CC1D24490">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>78238789-604E-84C2-9964-10A444F68612</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350 CHAR</dataTypeSize>
+<ownDataTypeParameters>350 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origenes" id="2B5AA6C1-F50F-1BBE-7A38-0CF9309803C4">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>7A9564E4-EF39-BEB3-CEB1-E917EC2C8B90</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Epoca_id_epoca" id="3B7E8F50-24C0-6AF2-7916-198FFB7F2C9C">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>0F1FDF13-EE14-C665-457C-451FFF675689</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15E28FCF-76B7-17FB-AB01-8BD0145A0304" referredColumn="233FD080-B05F-8712-90A9-456860C42083"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B53ED005-8122-0F9D-EB78-6B6843E0FBA5" name="Genero_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>602C2338-56F3-279C-26AF-4AE4EA5B1300</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E7A59F5-DB26-27E0-9EBA-B9E2514DB244"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D417CC7-3E3C-9835-D485-FA1AFBB96FE8" name="Genero_Epoca_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>9D94B73F-0C60-69A0-3C7F-C86404F738E5</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B7E8F50-24C0-6AF2-7916-198FFB7F2C9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C38369B3-E0FD-712A-8BC7-4FB59FB21579">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 20:36:32 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

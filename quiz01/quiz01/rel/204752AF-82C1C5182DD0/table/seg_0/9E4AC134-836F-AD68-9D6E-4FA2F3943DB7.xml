@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E4AC134-836F-AD68-9D6E-4FA2F3943DB7" name="cliente">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>61F629C9-73B4-5080-48D6-4C8D072394E7</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="documento_cliente" id="A5051AA8-6C71-B1D6-F171-D3F23471275B">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>5549BB9A-D950-80A8-7334-1CAB40C85799</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cliente" id="714EE873-64ED-1B5B-897C-49E641842D56">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>8ED9AD89-0A4F-75E8-9310-D934265167C5</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="216D4585-3E60-44FF-986E-7D92AFEE0CD0">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>383F9DEC-2E7F-2C8B-C923-ED6C3D80992D</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFC1A7D5-15E6-A453-7A8D-706A912E92E0" name="cliente_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>26D0053C-F0C0-9B9B-D1D6-F4EFDDB8F2F7</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5051AA8-6C71-B1D6-F171-D3F23471275B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

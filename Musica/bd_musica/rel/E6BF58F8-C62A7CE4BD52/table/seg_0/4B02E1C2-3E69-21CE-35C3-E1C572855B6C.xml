@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B02E1C2-3E69-21CE-35C3-E1C572855B6C" name="genero_instrumentos">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genero_id_genero" id="6546C175-D906-844B-F319-2A47BAD8DC84">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="955DA27A-EB67-9BDC-D765-34E4B8582730" referredColumn="0E7A59F5-DB26-27E0-9EBA-B9E2514DB244"/>
+</associations>
+</Column>
+<Column name="Instrumento_id_instrumento" id="90331A83-85A4-D4E9-3394-1EA96B7110BD">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5378C34C-6799-C34D-5D9A-3328E5BFA1E3" referredColumn="254F6B1D-236B-FD67-68A0-C1CB6F22F9C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13AF7CC6-669B-B66A-E28B-B5F77D35859A" name="genero_instrumentos_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6546C175-D906-844B-F319-2A47BAD8DC84"/>
+<colUsage columnID="90331A83-85A4-D4E9-3394-1EA96B7110BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2631069-1AAB-B634-9BA3-875BAFD026A2" name="genero_instrumentos_Genero_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>01872EBA-4D86-2D5B-9D26-EB3668B93C26</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6546C175-D906-844B-F319-2A47BAD8DC84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD6F78F3-925C-5F71-3143-0A34C5F9B405" name="genero_instrumentos_Instrumento_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>01872EBA-4D86-2D5B-9D26-EB3668B93C26</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90331A83-85A4-D4E9-3394-1EA96B7110BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

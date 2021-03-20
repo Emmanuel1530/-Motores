@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="factura_cliente" directorySegmentName="seg_0" id="4EF836F1-9124-885A-13AE-5EE44E336607">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:12:27 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="752FC89A-F49B-995F-349D-A6AE17381C3D" value="true"/>
+</engineerTo>
+<sourcePk>12A03EFE-CE75-FC93-3949-3AB8868A00ED</sourcePk>
+<targetPk>26D0053C-F0C0-9B9B-D1D6-F4EFDDB8F2F7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>15C48C40-25BF-3CB8-C8A7-18A3BE32A49C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>61F629C9-73B4-5080-48D6-4C8D072394E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D978B9B-E306-3B20-664F-46465E2D7823" name="turnos">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:42:28 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="turno_id" id="DCECFC2E-5395-3CB6-AF0D-FD6DB659EFB1">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:42:36 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaEntrada" id="D99E7E30-AC8B-36BA-1676-DDDDECF7A34A">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:43:41 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaSalida" id="E494E374-D217-007D-4E98-C9B02D6AFB7E">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:44:04 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A0F5526-5DA6-8EEB-9725-75CE6E2571F8" name="turnos PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:43:35 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCECFC2E-5395-3CB6-AF0D-FD6DB659EFB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

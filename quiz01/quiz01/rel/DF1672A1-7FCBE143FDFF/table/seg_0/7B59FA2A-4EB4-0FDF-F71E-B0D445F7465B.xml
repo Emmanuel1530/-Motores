@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B59FA2A-4EB4-0FDF-F71E-B0D445F7465B" name="tipoEmpleado">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>732F2080-CDDC-DE9F-104C-3A9FC74CCACC</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="67333C89-8B23-06F5-68D1-C1A0BE272303">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>A52BE8A4-7E38-486B-99FA-D1E7D65F8D37</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="DC6320E1-8E53-2EA8-37EF-C35870BE6E92">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>0F574245-5053-1087-59E3-FC76E2C2E069</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="36B00A97-DB2C-BA9D-1274-528FF446E02F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>433FBE8F-8E55-E9D2-B9CB-B01B9B298F76</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E69DCC0C-4A55-07A2-1C5A-4B34305C03FF" name="tipoEmpleado_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>58A10D13-C3AF-8854-F33F-25C2BE9C55E5</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67333C89-8B23-06F5-68D1-C1A0BE272303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

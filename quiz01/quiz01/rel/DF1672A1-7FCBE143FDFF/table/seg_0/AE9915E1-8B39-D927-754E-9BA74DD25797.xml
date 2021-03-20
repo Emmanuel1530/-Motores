@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE9915E1-8B39-D927-754E-9BA74DD25797" name="turnos">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>0D978B9B-E306-3B20-664F-46465E2D7823</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="turno_id" id="3202A6AC-5A44-393B-036F-F622F3F3BED5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>DCECFC2E-5395-3CB6-AF0D-FD6DB659EFB1</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaEntrada" id="C154F4BA-0E9F-1EDD-79DA-20D462531F5C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>D99E7E30-AC8B-36BA-1676-DDDDECF7A34A</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaSalida" id="DB13834F-630B-6657-99B2-33FA56CBEB82">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>E494E374-D217-007D-4E98-C9B02D6AFB7E</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D0103D3-F959-A4C9-906D-5270C2FA8323" name="turnos_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>9A0F5526-5DA6-8EEB-9725-75CE6E2571F8</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3202A6AC-5A44-393B-036F-F622F3F3BED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

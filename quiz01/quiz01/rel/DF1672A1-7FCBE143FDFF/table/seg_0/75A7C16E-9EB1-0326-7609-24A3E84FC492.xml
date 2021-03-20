@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75A7C16E-9EB1-0326-7609-24A3E84FC492" name="factura">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>15C48C40-25BF-3CB8-C8A7-18A3BE32A49C</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="factura_id" id="386DDD21-BA0C-DDFA-EBED-1F81EF8857AF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>7FFB973C-71DD-42BC-3251-8002B105CD7D</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="DDA7ADF8-4D59-7C1B-502F-AE58BBF618BC">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>5E759118-F912-B71A-8403-2C86B53C2BC2</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="80E7D105-3D72-AF46-3CC7-FCE83BF160EC">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>C16F334F-ED57-86FC-D73D-0F4760ADBCE2</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="7FE608C6-DFF8-3B6F-A764-E6AC9FFBACEF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>B99415B8-2AED-B6B9-EB08-DC075F3C4912</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_pago" id="08887DB6-87EA-69ED-56D2-9612CE9C7C23">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>32D8EB7D-1395-59CA-FFF8-B643179619D4</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empleado_documentoEmpleado" id="B6A04BC6-4F0B-3771-DBE0-234F91BD4F63">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>E4F07C19-2B32-0FF7-6083-312CF0493368</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA708576-AAEA-C317-3481-A204859DC1C0" referredColumn="7CCECA86-DA71-C140-9B4C-C416A2BC6A7B"/>
+</associations>
+</Column>
+<Column name="cliente_documentoCliente" id="9B8D4EB1-3EE5-1EF1-F54F-21690B4374F1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>FE87A934-EC46-C98D-EF3A-19828793E061</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BF6C422-0A07-0AAD-6663-6FF14F4F456A" referredColumn="917C2C37-A6F4-3FB1-D760-3BD8329C7CE8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C2EEE1B-0FC1-BE2E-EAB3-00E94DD881AA" name="factura_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>12A03EFE-CE75-FC93-3949-3AB8868A00ED</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="386DDD21-BA0C-DDFA-EBED-1F81EF8857AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1442B3C-6142-0D97-DBC7-BC455A1976F4" name="factura_empleado_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>C7433172-B35E-BFBC-2258-576279AC065C</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A04BC6-4F0B-3771-DBE0-234F91BD4F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8666D2E1-1892-2AEE-846C-8F25742C8BBD" name="factura_cliente_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2021-02-28 23:51:54 UTC</createdTime>
+<generatorID>4EF836F1-9124-885A-13AE-5EE44E336607</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B8D4EB1-3EE5-1EF1-F54F-21690B4374F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

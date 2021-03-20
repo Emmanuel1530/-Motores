@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15C48C40-25BF-3CB8-C8A7-18A3BE32A49C" name="factura">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:45:46 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="factura_id" id="7FFB973C-71DD-42BC-3251-8002B105CD7D">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:00:27 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="5E759118-F912-B71A-8403-2C86B53C2BC2">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:00:49 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="C16F334F-ED57-86FC-D73D-0F4760ADBCE2">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:01:08 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="B99415B8-2AED-B6B9-EB08-DC075F3C4912">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:02:35 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_pago" id="32D8EB7D-1395-59CA-FFF8-B643179619D4">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:02:55 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documentoEmpleado" id="E4F07C19-2B32-0FF7-6083-312CF0493368">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:15:15 UTC</createdTime>
+<generatorID>C7433172-B35E-BFBC-2258-576279AC065C</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<referedAttribute>BB2B20C9-A515-74B5-31C3-FC4C95F99954</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documentoCliente" id="FE87A934-EC46-C98D-EF3A-19828793E061">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:14:15 UTC</createdTime>
+<generatorID>4EF836F1-9124-885A-13AE-5EE44E336607</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5549BB9A-D950-80A8-7334-1CAB40C85799</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12A03EFE-CE75-FC93-3949-3AB8868A00ED" name="factura PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 22:00:47 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FFB973C-71DD-42BC-3251-8002B105CD7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

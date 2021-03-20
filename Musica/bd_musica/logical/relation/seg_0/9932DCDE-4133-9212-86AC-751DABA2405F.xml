@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="musico_obra" directorySegmentName="seg_0" id="9932DCDE-4133-9212-86AC-751DABA2405F">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:16 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>47889EBF-BB2E-5325-EF98-DE1151F71451</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>157BDD58-57E9-2AB3-7B9F-84F73C56A16B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

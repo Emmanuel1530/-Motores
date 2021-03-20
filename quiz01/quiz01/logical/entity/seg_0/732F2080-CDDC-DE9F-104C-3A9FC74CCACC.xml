@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="732F2080-CDDC-DE9F-104C-3A9FC74CCACC" name="tipoEmpleado">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:23:50 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="B17A5992-712B-9EBF-5ECC-A9CDB4A72408" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="A52BE8A4-7E38-486B-99FA-D1E7D65F8D37">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:24:28 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="B17A5992-712B-9EBF-5ECC-A9CDB4A72408" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion " id="0F574245-5053-1087-59E3-FC76E2C2E069">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:24:47 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="B17A5992-712B-9EBF-5ECC-A9CDB4A72408" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario " id="433FBE8F-8E55-E9D2-B9CB-B01B9B298F76">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:32:42 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="B17A5992-712B-9EBF-5ECC-A9CDB4A72408" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58A10D13-C3AF-8854-F33F-25C2BE9C55E5" name="tipoEmpleado PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:24:26 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<engineerTo>
+<item key="B17A5992-712B-9EBF-5ECC-A9CDB4A72408" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A52BE8A4-7E38-486B-99FA-D1E7D65F8D37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

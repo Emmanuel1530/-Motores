@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="epoca_genero" directorySegmentName="seg_0" id="9D94B73F-0C60-69A0-3C7F-C86404F738E5">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:26:41 UTC</createdTime>
+<ownerDesignName>bd_musica</ownerDesignName>
+<engineerTo>
+<item key="E6BF58F8-EDA7-7A8B-DA90-C62A7CE4BD52" value="true"/>
+</engineerTo>
+<sourcePk>FCEA782C-A1C8-C244-E526-11013AEFCAC9</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15C83FD5-E929-E390-888C-3A89AA89E29F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DAE1A832-2890-7748-FAAE-4832C3E74C63</targetEntity>
+<transferable>true</transferable>
+</Relation>

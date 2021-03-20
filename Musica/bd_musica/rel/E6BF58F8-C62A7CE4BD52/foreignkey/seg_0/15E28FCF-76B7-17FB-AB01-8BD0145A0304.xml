@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15E28FCF-76B7-17FB-AB01-8BD0145A0304" containerWithKeyObject="E5FBA954-76EF-5093-2B66-12CFDDF679DC" localFKIndex="3D417CC7-3E3C-9835-D485-FA1AFBB96FE8" name="Genero_Epoca_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-16 14:47:48 UTC</createdTime>
+<generatorID>9D94B73F-0C60-69A0-3C7F-C86404F738E5</generatorID>
+<ownerDesignName>bd_musica</ownerDesignName>
+<referredTableLongName>Epoca</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48E08E2C-218A-5EBE-8B93-6B32802EC212</referredTableID>
+<keyObject>56DBD552-AB44-A3D8-0C38-5BD1D70C35B0</keyObject>
+<referredKeyID>56DBD552-AB44-A3D8-0C38-5BD1D70C35B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_epoca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

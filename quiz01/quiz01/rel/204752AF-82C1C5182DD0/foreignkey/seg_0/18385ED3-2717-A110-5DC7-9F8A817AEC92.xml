@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18385ED3-2717-A110-5DC7-9F8A817AEC92" containerWithKeyObject="906CDA22-34FB-F0C0-D3F6-1EE686085065" localFKIndex="C9D9466B-8BF7-E7F6-3B62-D40DB29AFFB7" name="factura_productos_producto_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 23:28:23 UTC</createdTime>
+<generatorID>DD1839EA-2302-A30C-0D01-2334F1A21A8D</generatorID>
+<ownerDesignName>quiz01</ownerDesignName>
+<referredTableLongName>producto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>679A86E2-3318-73A6-49B5-8A0640BB03E1</referredTableID>
+<keyObject>02B73297-049E-76F6-AC1A-B134FFED7F0E</keyObject>
+<referredKeyID>02B73297-049E-76F6-AC1A-B134FFED7F0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_producto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

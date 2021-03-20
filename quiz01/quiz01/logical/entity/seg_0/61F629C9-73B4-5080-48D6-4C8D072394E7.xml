@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61F629C9-73B4-5080-48D6-4C8D072394E7" name="cliente">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:22:15 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="documentoCliente" id="5549BB9A-D950-80A8-7334-1CAB40C85799">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:22:31 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreCliente" id="8ED9AD89-0A4F-75E8-9310-D934265167C5">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:22:49 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono " id="383F9DEC-2E7F-2C8B-C923-ED6C3D80992D">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:23:00 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26D0053C-F0C0-9B9B-D1D6-F4EFDDB8F2F7" name="cliente PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-02-28 21:22:45 UTC</createdTime>
+<ownerDesignName>quiz01</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5549BB9A-D950-80A8-7334-1CAB40C85799</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
