@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cuenta_transaccion" directorySegmentName="seg_0" id="F589F11A-D196-27A8-033C-A35B89120A7D">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:20:33 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<sourcePk>E5BA0D11-70BE-5FCB-0007-D2987DFEABC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C6B4DF1-DEDF-D613-7F98-9967D564A99F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD157599-5F97-2E8B-35C0-CA4B830833E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

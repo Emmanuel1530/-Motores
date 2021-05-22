@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD157599-5F97-2E8B-35C0-CA4B830833E3" name="Transaccion">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>377AEAA7-6ABA-6B73-9256-A35BB24B0D4D</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id transaccion" id="A504907A-75A4-6F54-83CA-B441BEC45A67">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>D7A0DF53-ABE6-DA11-F33F-1FD010BEB9AC</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="C75BD5E2-C210-F284-8853-2E64F3C184B9">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>0AC0F1E0-BBCB-9557-57A2-8762641DF0A4</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="DB7808EF-F823-83D4-4FCA-CFF11CDE0A12">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>797D7E70-3430-1AF3-311A-524E6732D30F</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="239C75F6-F9E4-A1A8-6149-62B74551653F">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>72BCD88E-69D6-C30C-812A-DF5657083836</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id cuenta" id="500E6427-32BD-990C-2F3E-A5229584B1AA">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:20:33 UTC</createdTime>
+<generatorID>F589F11A-D196-27A8-033C-A35B89120A7D</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<referedAttribute>81228306-B09B-A6AB-D2F7-AEE6EA75B300</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="935E47B4-0170-B682-5BD4-5B98E7D9D3EC" name="Transaccion PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>EB462DB1-854D-F563-E047-F69A269FA46E</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A504907A-75A4-6F54-83CA-B441BEC45A67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

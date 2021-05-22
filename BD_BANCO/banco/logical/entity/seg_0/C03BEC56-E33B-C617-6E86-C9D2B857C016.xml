@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C03BEC56-E33B-C617-6E86-C9D2B857C016" name="persona natural">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:49:33 UTC</createdTime>
+<generatorID>4289DE35-152C-6ED9-18A7-F5AC16D89789</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cliente documento" id="1BC4BC5A-8F68-0E48-41E1-B2957A055E13">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:49:33 UTC</createdTime>
+<generatorID>7FB7578D-D4C4-7920-6B6C-28CB6D161F57</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<referedAttribute>D9A09E1A-D759-9B8A-7175-472E72C97C74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="40889069-F62F-1AB1-8F47-75631F7AD0B4">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:49:33 UTC</createdTime>
+<generatorID>F4915266-CE0B-137E-DD67-997432AA77E0</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="238E6591-5105-9BCA-53CF-9F4BFCCC9B67">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:49:33 UTC</createdTime>
+<generatorID>048BE8C4-948E-195E-9BF2-42113822BBE1</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="B342AEA5-1332-256A-FC3D-7A6B95E0A8E6">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:49:33 UTC</createdTime>
+<generatorID>2EE64512-A417-8E10-DEA2-3962C00E123E</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="F74CC3A1-EF27-DCDE-E335-DBEEDAA6E6C8">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:18:45 UTC</createdTime>
+<generatorID>70BB58DD-9BF2-D2A4-D394-DE1861FBC552</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="888B59AE-DEE3-FF02-6534-BC47C4468A72" name="persona natural PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:49:33 UTC</createdTime>
+<generatorID>B1547558-E69B-A2BA-E8FA-572CE183308B</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BC4BC5A-8F68-0E48-41E1-B2957A055E13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

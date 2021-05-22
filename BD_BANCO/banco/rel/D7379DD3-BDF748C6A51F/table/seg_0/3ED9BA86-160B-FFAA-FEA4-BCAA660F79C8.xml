@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ED9BA86-160B-FFAA-FEA4-BCAA660F79C8" name="Transaccion">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>BD157599-5F97-2E8B-35C0-CA4B830833E3</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaccion" id="79E37178-488E-779A-35A7-AAB292FBEE68">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>A504907A-75A4-6F54-83CA-B441BEC45A67</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="D2573B5E-CF9F-DE6D-7D71-048212FABA60">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>C75BD5E2-C210-F284-8853-2E64F3C184B9</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="8EE82C14-3982-B6F9-869A-7027A7FECE85">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>DB7808EF-F823-83D4-4FCA-CFF11CDE0A12</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="B3111115-E986-D256-1CAD-CD49FA8D4450">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>239C75F6-F9E4-A1A8-6149-62B74551653F</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cuenta_id_cuenta" id="5A9CFA19-1F9F-7FA8-C977-1D5762E8CBFA">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>500E6427-32BD-990C-2F3E-A5229584B1AA</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D0D5843-7639-0EF1-1DA4-268E3BE325B8" referredColumn="0B301713-E7D2-3432-1154-77E8D8E5DB43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E49728EA-3BFF-6F1F-6CC8-E8ABD8ECB245" name="Transaccion_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>935E47B4-0170-B682-5BD4-5B98E7D9D3EC</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79E37178-488E-779A-35A7-AAB292FBEE68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3B94592-546A-5993-7460-7AAB0A6693D8" name="Transaccion_Cuenta_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>F589F11A-D196-27A8-033C-A35B89120A7D</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A9CFA19-1F9F-7FA8-C977-1D5762E8CBFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03DCFD7E-9D18-296D-87AD-FA9EFDE22EAE" name="persona_natural">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>C03BEC56-E33B-C617-6E86-C9D2B857C016</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_documento" id="DB62B523-ECA3-205B-5F41-738E62FF2698">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>1BC4BC5A-8F68-0E48-41E1-B2957A055E13</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEFCD9D4-E8CD-D40D-D309-A032E661C346" referredColumn="492BEEA1-C049-5FAC-4D3A-D83CC03E66B7"/>
+</associations>
+</Column>
+<Column name="email" id="CC85B4AF-4AA7-2BFA-5258-DB2BA0AFC8F5">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>40889069-F62F-1AB1-8F47-75631F7AD0B4</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="5B57058A-8399-5AC6-DC48-D5A3FE573561">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>238E6591-5105-9BCA-53CF-9F4BFCCC9B67</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="73854A69-9435-9AEC-34C4-06258249C195">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>B342AEA5-1332-256A-FC3D-7A6B95E0A8E6</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="F856A6FC-2769-8EA5-349F-AA8335F6C1C2">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>F74CC3A1-EF27-DCDE-E335-DBEEDAA6E6C8</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAAEA7C6-0D71-6F18-4D6B-1423F685E899" name="persona_natural_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>888B59AE-DEE3-FF02-6534-BC47C4468A72</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB62B523-ECA3-205B-5F41-738E62FF2698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59F3FC2A-FF6E-7A70-F6CB-AC0F29639E31" name="persona_natural_Cliente_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>7FB7578D-D4C4-7920-6B6C-28CB6D161F57</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB62B523-ECA3-205B-5F41-738E62FF2698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

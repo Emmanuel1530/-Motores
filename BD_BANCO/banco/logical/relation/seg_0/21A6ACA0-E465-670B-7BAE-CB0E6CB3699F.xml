@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cuenta Cliente FK" directorySegmentName="seg_0" id="21A6ACA0-E465-670B-7BAE-CB0E6CB3699F">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:56:36 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<sourcePk>4D4CA83E-A11D-A157-8098-530CD7DAD170</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23C872C1-12E3-E62B-C66D-1E5BE1DFC2A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3C6B4DF1-DEDF-D613-7F98-9967D564A99F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

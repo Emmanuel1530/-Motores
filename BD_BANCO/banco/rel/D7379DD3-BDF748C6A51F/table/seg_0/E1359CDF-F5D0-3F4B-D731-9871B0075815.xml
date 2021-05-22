@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1359CDF-F5D0-3F4B-D731-9871B0075815" name="persona_juridica">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>070279DB-01CA-54AA-5520-69A2CE21D689</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_documento" id="1FBCBCBC-46AB-FF96-AABE-F90F21D7ACB6">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>7D566938-67DA-AE0D-AB2E-25DC53AF1864</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4E76886-EDD6-0C0E-A65B-8FC6A274F20F" referredColumn="492BEEA1-C049-5FAC-4D3A-D83CC03E66B7"/>
+</associations>
+</Column>
+<Column name="tipo_empresa" id="C561F282-720D-5F3E-D914-A9D8969BE66D">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>80129AC6-AD76-59BE-17CE-0FF182C03E82</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_representante" id="F74781E5-58C3-373C-F936-EDB93531AC3B">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>DD5DC941-817A-22D6-967A-2538287602C7</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_empleados" id="3948B75F-E1C6-28D8-D4D6-C1DD0B4B14ED">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>F9396E02-F213-695D-A7D4-2F2F3B519269</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49BBB242-D614-EADF-319E-4EB67C98AE9F" name="persona_juridica_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>6092749D-A18C-E9D0-B63D-5BAB68576595</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FBCBCBC-46AB-FF96-AABE-F90F21D7ACB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD61B975-E15A-863D-D972-9E5481C338A9" name="persona_juridica_Cliente_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>FB7336C6-3ED1-267B-0D1F-EEEB9B62329A</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FBCBCBC-46AB-FF96-AABE-F90F21D7ACB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

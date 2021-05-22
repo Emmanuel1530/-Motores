@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E88CBE22-70DF-32B9-6669-7B3CDA53A505" name="Cliente">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>23C872C1-12E3-E62B-C66D-1E5BE1DFC2A2</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="documento" id="492BEEA1-C049-5FAC-4D3A-D83CC03E66B7">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>D9A09E1A-D759-9B8A-7175-472E72C97C74</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="80CA6766-6F65-ADE5-9240-D3D3905CCA04">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>34B87F42-508D-83AE-75EA-26A0086F07C3</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="5706D23D-7D9F-16B5-A3D7-E10270CC797D">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>176A2D8E-1AFD-C6F6-F7B6-B8A63DCB3C7C</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7E26F9F-527A-EC2F-84AA-9C0BEFA34250" name="Cliente_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-04-16 15:11:18 UTC</createdTime>
+<generatorID>4D4CA83E-A11D-A157-8098-530CD7DAD170</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492BEEA1-C049-5FAC-4D3A-D83CC03E66B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

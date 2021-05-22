@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="persona_juridica_Cliente_FK" directorySegmentName="seg_0" id="FB7336C6-3ED1-267B-0D1F-EEEB9B62329A">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 15:06:15 UTC</createdTime>
+<generatorID>63F08908-D67F-7AF6-1552-70A321019DB7</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<sourcePk>4D4CA83E-A11D-A157-8098-530CD7DAD170</sourcePk>
+<dominantRole>23C872C1-12E3-E62B-C66D-1E5BE1DFC2A2</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23C872C1-12E3-E62B-C66D-1E5BE1DFC2A2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>070279DB-01CA-54AA-5520-69A2CE21D689</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

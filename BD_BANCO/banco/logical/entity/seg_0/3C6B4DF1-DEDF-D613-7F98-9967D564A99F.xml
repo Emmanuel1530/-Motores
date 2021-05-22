@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C6B4DF1-DEDF-D613-7F98-9967D564A99F" name="Cuenta">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:15:36 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id cuenta" id="81228306-B09B-A6AB-D2F7-AEE6EA75B300">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:50:30 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha creacion" id="EFF799C3-FBBF-9172-954D-8AC5355DFD6D">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:51:10 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo cuenta" id="5EE01965-6B78-EBFA-4225-EE02E5724F96">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:51:31 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo actual" id="87C6FA0A-456F-F547-4594-A353434B00AD">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:53:46 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo promedio" id="A70A2AE3-0967-6762-61C7-86B0BC221A43">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:54:26 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cliente documento" id="05D7A4DA-A9D6-0D43-40E8-79B7D433476B">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:56:36 UTC</createdTime>
+<generatorID>21A6ACA0-E465-670B-7BAE-CB0E6CB3699F</generatorID>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<referedAttribute>D9A09E1A-D759-9B8A-7175-472E72C97C74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5BA0D11-70BE-5FCB-0007-D2987DFEABC7" name="Cuenta PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2021-03-19 14:46:10 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+<engineerTo>
+<item key="B02A1C11-A8A2-77F5-3595-D5B964B09602" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81228306-B09B-A6AB-D2F7-AEE6EA75B300</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
